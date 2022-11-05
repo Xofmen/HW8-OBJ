@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto+Mono:wght@700&display=swap');
+*{
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.box{
+    width: max-content;
+    height: max-content;
+    /* border: 2px solid red; */
+    padding: 0px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: rgba(42, 42, 183, 0.758);
+    box-shadow: 5px 5px 10px black;
+    color: white;
+}
+.box2{
+    width: max-content;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.264);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+title{
+    display: none;
+}
